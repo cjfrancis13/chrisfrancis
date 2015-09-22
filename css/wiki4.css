@@ -1,0 +1,50 @@
+body, 
+html {
+margin:0;
+padding:0;
+color:#000;
+background-color:#295200;
+}
+
+
+.wrap {
+background-color: #66A366;
+width:750px;
+margin:0 auto;
+}
+
+.header {
+background-color: #757547;
+padding: 10px;
+}
+
+.nav{
+background-color: #82E682;
+border: 1px solid white;
+}
+
+#navtop{
+display: inline;
+text-decoration: none;
+padding: 0px 20px;
+}
+
+
+.sidebar {
+background-color: #757547;
+float: right;
+height: 420px;
+}
+
+.content {
+
+}
+
+.footer {
+background-color: #757547;
+padding: 1px 0px;
+}
+
+.copyright {
+
+}
