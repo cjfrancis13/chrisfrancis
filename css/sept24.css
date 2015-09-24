@@ -1,0 +1,87 @@
+.container{
+width: 1080px;
+margin: 0 auto;
+background: #FFFAA;
+}
+
+.header {
+background-color: pink;
+clear: both;
+padding-bottom: 20px;
+}
+
+.header h1 {
+float: left;
+margin: 0 50px 0 30px;
+}
+
+.header ul {
+padding-top: 10px;
+}
+
+nav ul li {
+display: inline;
+padding-left: 20px;
+margin-top: 10px;
+}
+
+.header, h1, ul, li {
+float: left;
+display: inline;
+margin: 0px 0px;
+padding: 10px;
+}
+
+.content {
+float: left;
+background-color: #4CD871;
+width: 75%;
+}
+
+.content img {
+float: left;
+margin: 0 20px;
+}
+
+.top-content{
+height: 230px;
+clear: both;
+}
+
+.description{
+clear: right;
+padding: 10px 20px 0 
+}
+
+.aside {
+background-color: #FAEEB7;
+float: left;
+width: 25%;
+text-align: center;
+}
+
+.footer {
+background-color: #6078CF;
+}
+
+.section1{
+width: 31%;
+display: inline;
+float: left;
+margin: 0px 3px;
+}
+
+.section2{
+width: 31%;
+display: inline;
+float: left;
+margin: 0px 3px;
+} 
+
+.section3{
+width: 31%;
+display: inline;
+float: left;
+margin: 0px 3px;
+}
+
