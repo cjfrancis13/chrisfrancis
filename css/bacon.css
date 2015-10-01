@@ -1,0 +1,28 @@
+body {
+    background: #CC7A29;
+    color: white;
+    font-size: 14px;
+	width: 65%;
+	margin: 0 auto;
+	font-family: Georgia;
+	line-height: 1.45
+}
+
+table, tr, td, th {
+  border-collapse: collapse;
+  border: 2px solid #4C1F00;
+  font-family: Georgia;
+  padding: 5px;
+}
+
+.bacon-info {
+  font-family: Georgia;
+}
+
+.bacon-answer {
+  font-family: Georgia;
+}
+
+.top {
+
+}
