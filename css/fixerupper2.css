@@ -1,0 +1,54 @@
+body {
+    background: grey;
+    color: white;
+}
+
+.main-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.mets {
+    background: orange;
+	padding: 15px 20px;
+	color: #2b2b2b;
+}
+
+.dodgers {
+    background: blue;
+	padding: 15px 20px;
+	color: #f0f0f0;
+}
+
+.cubs {
+    padding: 15px 20px;
+	color: #000000;
+}
+
+.pittsburgh {
+    background: yellow;
+	padding: 15px 20px;
+	color: #000000;
+}
+
+.cardinals {
+    background: red;
+	padding: 15px 20px;
+	color: #000000;
+}
+
+.table-container {
+    background: black;
+	padding: 15px 20px;
+}
+
+table, tr, th , td {
+border: 2px solid #808080;
+text-align: center;
+border-collapse: collapse;
+padding: 5px;
+}
