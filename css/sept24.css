@@ -6,18 +6,21 @@ background: #FFFAAA;
 
 .header {
 background-color: pink;
-clear: both;
 padding-bottom: 20px;
 padding-right: 600px;
+position: static;
 }
 
 .header h1 {
 float: left;
 margin: 0 50px 0 30px;
+display: inline;
 }
 
 .header ul {
 padding-top: 10px;
+display: none;
+
 }
 
 nav ul li {
