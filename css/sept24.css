@@ -18,7 +18,8 @@ padding-left: 5px;
 
 .header ul {
 padding-top: 10px;
-display: none;
+display: inline;
+margin: 0 200px 0 30px;
 
 }
 
@@ -37,6 +38,7 @@ padding: 10px;
 }
 
 .content {
+padding-top: 15px;
 float: left;
 background-color: #4CD871;
 width: 75%;
