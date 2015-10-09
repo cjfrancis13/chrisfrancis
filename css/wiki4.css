@@ -11,6 +11,8 @@ background-color:#295200;
 background-color: #66A366;
 width:750px;
 margin:0 auto;
+list-style-type: none;
+text-align:center;
 }
 
 .header {
