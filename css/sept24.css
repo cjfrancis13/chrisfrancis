@@ -27,6 +27,7 @@ nav ul li {
 display: inline;
 padding-left: 20px;
 margin-top: 10px;
+float: left;
 }
 
 .header, h1, ul, li {
