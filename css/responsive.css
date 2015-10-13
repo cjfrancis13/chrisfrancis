@@ -11,7 +11,41 @@ img {
  @media (min-width:700px) {
   img {display:none; margin: 0 auto;}
   .chill {display:none;}
-  p {display:none;}
+  .one {display:none;}
+ }
+ 
+  @media (min-width:725px) {
+  img {display:none; margin: 0 auto;}
+  .chill {display:none;}
+  .two {display:none;}
+  .one {display:none;}
+ }
+ 
+  @media (min-width:750px) {
+  img {display:none; margin: 0 auto;}
+  .chill {display:none;}
+  .three {display:none;}
+  .two {display:none;}
+  .one {display:none;}
+ }
+ 
+  @media (min-width:775px) {
+  img {display:none; margin: 0 auto;}
+  .chill {display:none;}
+  .four {display:none;}
+  .three {display:none;}
+  .two {display:none;}
+  .one {display:none;} 
+ }
+ 
+  @media (min-width:800px) {
+  img {display:none; margin: 0 auto;}
+  .chill {display:none;}
+  .five {display:none;}
+  .four {display:none;}
+  .three {display:none;}
+  .two {display:none;}
+  .one {display:none;} 
  }
 
 .content {
