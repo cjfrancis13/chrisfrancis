@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Banking Comparison Tool</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/final.css">
+        <link rel="stylesheet" href="http://www.albany.edu/~jb286219/final.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1 class="quiz">Albany Law School - Banking Comparison Tool</h1>
+            <div class="nav" style="margin-left:5%;margin-bottom:3%;">
+                <ul>
+                    <li><a class="active" href="http://www.albany.edu/~jb286219/default-page.html">Home</a></li>
+                    <li><a href="http://www.albany.edu/~jb286219/custom-page.html">Our Top Picks</a></li>
+                    <li><a href="http://www.albany.edu/~jb286219/custom-page2.html">Quiz</a></li>
+                    <li><a href="http://www.albany.edu/~jb286219/front-page.html">Launch Page</a></li>
+                </ul>
+            </div>
+            <h1 style = "text-align: center">Banking Tool</h1>
+
+<h4 style = "text-align: center ; width: 75%; margin: 0 auto">
+Welcome to the Banking Comparison Tool, presented to you by Albany Law School.
+ This tool enables our online users to select which financial institutions are best suited for 
+ them by allowing the users to place specific weights on banking categories. 
+ The summation of these weights are then used to help calculate which financial institutions 
+ are best for you. Let's give it a try!
+ </h4>
+ 
+ <hr>
+
+ <form method = "post" action ="" name="form1">
+	
+	<table border = "2" align = "center" cellpadding ="5" cellspacing = "5" style = "border-radius: 10px; background-color: #92140C">
+		
+		<tr style = "background-color: #a6a6a6">
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Number of Branch Locations<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+				<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+				</td>
+			
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Loan Origination Marketshare<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+				</td>
+			
+		</tr>
+		
+		<tr style = "background-color: #cccccc">
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Branch Distribution<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+				</td>
+			
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Loan acceptance rate in NY State<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+				</td>
+			
+		</tr>
+		
+		<tr style = "background-color: #a6a6a6">
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Online Banking<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Loan acceptance rate - Latino borrowers<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+		</tr>
+		
+		<tr style = "background-color: #cccccc">
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>ATM fees<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Loan acceptance rate - Black borrowers<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+		</tr>
+		
+		<tr style = "background-color: #a6a6a6">
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Checking Account Fees<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Loan acceptance rate - Low-moderate income borrowers<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+		</tr>
+		
+		<tr style = "background-color: #cccccc">
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Savings Account Fees<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Percentage of total to Low- and Moderate-Income borrowers<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+		</tr>
+		
+		<tr style = "background-color: #a6a6a6">
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Overdraft Practices<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Loan acceptance rate Low-moderate-income communities<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+		</tr>
+		
+		<tr style = "background-color: #cccccc">
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Overdraft Thresholds and Limits<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Percentage of total in communities of color<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+		</tr>
+
+		<tr style = "background-color: #a6a6a6">
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Credit Cards<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Acceptance of alternate forms of identification<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+		</tr>
+		
+		<tr style = "background-color: #cccccc">
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Credit Card Fees<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+			<td style = "color: #1B263B ; border-radius: 7px;"><strong>Cost of wire transfers<img style = "float:right" src="http://albany.edu/~cf953423/Images/question.jpg" alt="question" height = "15px" width = "15px"/></td>
+			<td style = "color: #FFF8F0 ; border-radius: 7px;">
+					<select name = "weights">
+						<option value = ""> --Select a Ranking-- </option>
+						<option value = "first">1</option>
+						<option value = "second">2</option>
+						<option value = "third">3</option>
+						<option value = "fourth">4</option>
+						<option value = "fifth">5</option>
+					</select>
+			</td>
+			
+		</tr>
+			
+		</tr>
+		
+		<tr style = "background-color: #a6a6a6">
+			<td>
+				<input type = "submit" value = "Help">
+			</td>
+			<td>
+				<input type = "submit" value = "Save">
+			</td>
+			<td>
+				<input type = "submit" value = "Reset">
+			</td>
+			<td>
+				<input type = "submit" value = "Calculate">
+			</td>
+		</tr>
+		
+	</table>
+
+<textarea rows = "5" cols = "50" name = "concern">Any Questions or Concerns?</textarea>
+
+</form>
+        </div>
+    </body>
+</html>
